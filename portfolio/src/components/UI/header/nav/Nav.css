@@ -1,0 +1,20 @@
+@media only screen and (max-width:800px) {
+    #navImage {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:645px) {
+    #navImage {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    #navImage {
+        height: 70px;
+        width: 70px;
+    }
+}
