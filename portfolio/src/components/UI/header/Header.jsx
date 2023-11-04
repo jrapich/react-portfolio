@@ -8,11 +8,19 @@ export default function Header() {
     <Nav
       links={[
         <Link key={1} className="nav-link text-light" to="/">
-          Home
+            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top"></img>
+            Jeremy Rapich
         </Link>,
-        <Link key={2} className="nav-link text-light" to="/about">
-          About Us
+        <Link key={2} className="nav-link text-light" to="/resume">
+          Resume
         </Link>,
+        <Link key={3} className='nav-link text-light' to='/about'>
+            About Me
+        </Link>,
+        <Link key={4} className='nav-link text-light' to='/contact'>
+            Contact
+        </Link>
+        
       ]}
     />
   );
