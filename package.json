@@ -1,0 +1,19 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "professional portofilio powered by ReactJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrapich/react-portfolio.git"
+  },
+  "author": "https://github.com/jrapich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrapich/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/jrapich/react-portfolio#readme"
+}
