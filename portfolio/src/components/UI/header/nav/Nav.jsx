@@ -5,7 +5,8 @@ export default function Nav({links}) {
     return(
         <nav className="navbar bg-body-secondary" data-bs-theme="dark">
             <div className="container-fluid  row justify-content-center">
-                <div className="col">
+                <div className="col text-light">
+                    Jeremy Rapich
                     <img src={me} width="300" height="300" className="d-inline-block align-text-top" id='navImage'></img>
                 </div>
                 <div className="col navbar-brand">

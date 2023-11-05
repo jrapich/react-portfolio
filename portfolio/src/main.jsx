@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 //import page components for the routes to use
 import App from './App.jsx'
 import Home from './components/pages/home/Home.jsx'
+import Portfolio from './components/pages/portfolio/Portfolio.jsx'
 import About from './components/pages/about/About.jsx'
 import Contact from './components/pages/contact/Contact.jsx'
 import Resume from './components/pages/resume/Resume.jsx'
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: 'resume',
         element: <Resume />
+      },
+      {
+        path: 'portfolio',
+        element: <Portfolio />
       }
     ],
     },
