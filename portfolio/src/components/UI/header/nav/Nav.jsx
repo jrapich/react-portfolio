@@ -12,7 +12,7 @@ export default function Nav({links}) {
                     </div>
                 </section>
                 <section className="col navbar-brand">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav">
                         {links.map((link) => link)}
                     </ul>
                 </section>
