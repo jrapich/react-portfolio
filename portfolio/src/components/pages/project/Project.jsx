@@ -4,7 +4,7 @@ export default function Project (props) {
     return (
         <section className='row container-fluid' id="projects">
             <div className="col-2"></div>
-            <section className="col container-fluid">
+            <section className="col container-fluid centerCards">
                 <h4 className='text-light'>Here are a list of apps I have developed. Feel free to click on a image to be taken to the deployed app's site, if it has one.</h4>
                 {props.projects.map((project)=>(
                     <div className="card" key={project.id}>
