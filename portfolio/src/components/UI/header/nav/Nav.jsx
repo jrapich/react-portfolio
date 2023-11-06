@@ -1,5 +1,4 @@
 import me from '../../../../assets/images/me.jpg';
-import pillars from '../../../../assets/images/pillars.png';
 import './Nav.css';
 
 export default function Nav({links}) {
@@ -17,9 +16,6 @@ export default function Nav({links}) {
                     </ul>
                 </section>
                 <section className="col-2">
-                    <div>
-                        <img src={pillars} width="200" height="200" className="d-inline-block align-text-top navImage"></img>
-                    </div>
                 </section>
             </div>
         </nav>

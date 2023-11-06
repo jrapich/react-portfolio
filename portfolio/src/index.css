@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: none;
+}
 
 /* all of this below is css from default react/vite app,
 will be uncommented as needed */

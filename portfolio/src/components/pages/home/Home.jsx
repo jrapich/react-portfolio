@@ -1,6 +1,7 @@
+import './Home.css';
 
 export default function Home () {
     return (
-        <div>placeholder</div>
+        <div className='row container-fluid' id="home"></div>
     )
 };
