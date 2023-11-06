@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import Project from '../project/Project';
+import './Portfolio.css';
 //import project data constructor
 import {ProjectObj, currentProjects} from '../../../utils/projects';
 const {projectName, link, github, image, description} = currentProjects;
@@ -21,7 +22,7 @@ export default function Portfolio(){
     }, []);
 
     return(
-        <div>
+        <div className='portfolioBackground'>
             <Project projects={projects} />
         </div>
     );
