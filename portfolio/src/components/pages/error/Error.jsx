@@ -1,6 +1,6 @@
 
 export default function Error () {
     return (
-        <div>placeholder</div>
+        <h2>Error - Page not found.</h2>
     )
 };
