@@ -1,0 +1,4 @@
+.card-img-top:hover {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}

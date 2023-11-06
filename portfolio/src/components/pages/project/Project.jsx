@@ -1,3 +1,4 @@
+import './Project.css';
 
 export default function Project (props) {
     return (
@@ -7,7 +8,7 @@ export default function Project (props) {
                 {props.projects.map((project)=>(
                     <div className="card" key={project.id}>
                     <a href={project.link}>
-                        <img src={project.image} className="card-img-top" alt=""></img>
+                        <img src={project.image} className="card-img-top" alt="screenshot"></img>
                     </a>
                     <div className="card-body">
                         <p className="card-text">{project.projectName}</p>
