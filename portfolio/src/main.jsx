@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 //import css
 import 'bootstrap/dist/css/bootstrap.css'
-//import './index.css'
+import './index.css'
 
 //import page components for the routes to use
 import App from './App.jsx'

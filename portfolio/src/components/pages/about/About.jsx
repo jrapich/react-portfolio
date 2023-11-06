@@ -5,9 +5,9 @@ import viteLogo from '/vite.svg'
 export default function About() {
     return (
       <>
-        <section className='row container-fluid' id="aboutMe">
+        <section className='row container-fluid text-center' id="aboutMe">
           <div className='col-2'></div>
-          <div className='col'>
+          <div className='col border'>
           <h3> My Fullstack Webdev Journey</h3>
             <p>
                 Hello, my name is Jeremy. I currently live in South Jordan and am enrolled in the University of Utah/EdEx 
@@ -17,8 +17,9 @@ export default function About() {
             </p>
             <p>
                 At the beginning of the course, one of the first assignments was to build and deploy a simple portfolio with basic
-                html and css only. You can see that <a href='https://jrapich.github.io/jrapich-portfolio/'>here.</a> This portfolio, 
-                in contrast, was built entirely with ReactJS and Bootstrap!
+                html and css only. You can see that <a href='https://jrapich.github.io/jrapich-portfolio/'>here.</a> Much has changed 
+                since then in both my knowledge and experience in building web apps.
+                This portfolio, in contrast, was built entirely with ReactJS and Bootstrap!
             </p>
             <p>
                 Much of my past work experience lies in communications and emergency dispatch. I was an air ambulance dispatcher
@@ -35,18 +36,18 @@ export default function About() {
                 When I'm not messing with tech stuff, I'm enjoying music and have a vinyl record collection. I'm proud of the digital and physical
                 music library I've maintained since I was 14, and have been slowly learning how to DJ as a fun side hobby.
             </p>
+              <section className='d-flex justify-content-center'>
+                <a href="https://vitejs.dev" target="_blank">
+                  <img src={viteLogo} className="logo" alt="Vite logo" />
+                </a>
+                <a href="https://react.dev" target="_blank">
+                  <img src={reactLogo} className="logo react" alt="React logo" />
+                </a>
+              </section>
+          <h4>Powered by Vite + React</h4>
           </div>
           <div className='col-2'></div>
         </section>
-        <div>
-          <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://react.dev" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-        </div>
-        <h4>Powered by Vite + React</h4>
       </>
     )
   }

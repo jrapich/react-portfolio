@@ -14,7 +14,7 @@ export default function Nav({links}) {
                         {links.map((link) => link)}
                     </ul>
                 </div>
-                <div className="col"></div>
+                <div className="col">add pillars of creation here</div>
             </div>
         </nav>
     );
