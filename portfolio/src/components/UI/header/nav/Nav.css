@@ -1,20 +1,36 @@
-@media only screen and (max-width:800px) {
-    #navImage {
-        height: 200px;
-        width: 200px;
+@media only screen and (max-width:1275px) {
+    .navImage {
+        height: 150px;
+        width: 150px;
     }
 }
 
-@media only screen and (max-width:645px) {
-    #navImage {
+@media only screen and (max-width:950px) {
+    .navImage {
         height: 100px;
         width: 100px;
     }
+
+    .nav-link{
+        font-size: 80%;
+    }
 }
 
-@media only screen and (max-width:415px) {
-    #navImage {
+@media only screen and (max-width:730px) {
+    .navImage {
         height: 70px;
         width: 70px;
+    }
+
+    .nav-link{
+        font-size: 50%;
+    }
+
+    p {
+        font-size: 70%;
+    }
+
+    h4 {
+        font-size: 90%;
     }
 }
