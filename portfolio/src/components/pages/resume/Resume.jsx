@@ -1,6 +1,6 @@
 
 export default function Project () {
     return (
-        <div>placeholder</div>
+        <div>Resume is coming soon!</div>
     )
 };
