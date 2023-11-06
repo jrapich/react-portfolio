@@ -7,11 +7,13 @@ import svg from  '../assets/images/svg.png';
 import readme from '../assets/images/readme.png';
 
 class ProjectObj {
-    constructor(id, name, link, image){
+    constructor(id, name, link, github, image, description){
         this.id = id;
         this.projectName = name;
         this.link = link;
+        this.github = github;
         this.image = image;
+        this.description = description
     }
 };
 
