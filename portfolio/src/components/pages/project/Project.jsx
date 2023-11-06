@@ -10,7 +10,6 @@ export default function Project (props) {
                         <img src={project.image} className="card-img-top" alt=""></img>
                     </a>
                     <div className="card-body">
-                        {console.log(project.name)}
                         <p className="card-text">{project.projectName}</p>
                     </div>
                 </div>
