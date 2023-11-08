@@ -5,7 +5,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: none;
+  box-sizing:inherit
 }
 
 /* all of this below is css from default react/vite app,
