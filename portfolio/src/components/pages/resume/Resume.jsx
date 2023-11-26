@@ -4,7 +4,7 @@ export default function Project () {
     return (
         <div className="resume row container-fluid">
             <div className="col-2 bg-secondary bg-gradient"></div>
-            <section className="col bg-secondary" id="resumeSection">
+            <section className="col bg-secondary border border-dark" id="resumeSection">
                 <h3><b>SKILLS:</b></h3>
                 <div className="d-flex justify-content-start flex-column">
                     <ul>

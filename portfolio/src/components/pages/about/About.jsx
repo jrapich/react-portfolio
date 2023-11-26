@@ -7,7 +7,7 @@ export default function About() {
       <>
         <section className='row container-fluid text-center bg-secondary' id="aboutMe">
           <div className='col-2 sideCol bg-gradient'></div>
-          <div className='col border'>
+          <div className='col border border-dark'>
             <h3> My Fullstack Webdev Journey</h3>
             <p>
                 Hello, my name is Jeremy. I currently live in South Jordan and am enrolled in the University of Utah/EdEx 
