@@ -4,6 +4,7 @@ import './Contact.css';
 const emailRegex = new RegExp(/^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$/gm);
 
 export default function Contact () {
+    //grab the display text above/below the input fields as react refs so we can manipulate them with JS and state
     const nameRef = useRef(null);
     const nameHelpRef = useRef(null);
     const emailRef = useRef(null);
