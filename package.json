@@ -6,7 +6,7 @@
   "scripts": {
     "test": "vitest",
     "dev": "vite",
-    "start": "cd portfolio/ && npm run build && serve dist dist -s -n -L -p $PORT",
+    "start": "cd portfolio/ && serve dist -s -n -L -p $PORT",
     "build": "cd portfolio/ && npm i && vite build",
     "preview": "vite preview"
   },
