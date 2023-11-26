@@ -109,7 +109,7 @@ export default function Contact () {
                                     onMouseEnter={handleFieldMouseEnter}
                                     onMouseLeave={handleFieldMouseLeave}
                                     ></input>
-                                <div ref={messageHelpRef} id="messageHelp" className="form-text">Enter your password here</div>
+                                <div ref={messageHelpRef} id="messageHelp" className="form-text">Enter your message here</div>
                             </div>
                             <button type="submit" className="btn btn-primary">Submit</button>
                         </form>
