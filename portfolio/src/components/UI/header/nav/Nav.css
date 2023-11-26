@@ -1,3 +1,15 @@
+.nav-link {
+    font-size: 40px;
+}
+
+@media only screen and (min-width:1200px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between
+    }
+}
+
 @media only screen and (max-width:1275px) {
     .navImage {
         height: 150px;
@@ -12,7 +24,7 @@
     }
 
     .nav-link{
-        font-size: 80%;
+        font-size: 24px;
     }
     .navbar, .navbar-brand, .navbar-nav, .container-fluid, .col-2 {
         padding:0px;
@@ -23,12 +35,12 @@
 
 @media only screen and (max-width:730px) {
     .navImage {
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
     }
 
     .nav-link{
-        font-size: 50%;
+        font-size: 14px;
     }
 
     p {

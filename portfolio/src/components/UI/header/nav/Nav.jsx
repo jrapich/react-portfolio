@@ -11,9 +11,9 @@ export default function Nav({links}) {
                     </div>
                 </section>
                 <section className="col navbar-brand">
-                    <ul className="navbar-nav">
+                    <div className="navbar-nav">
                         {links.map((link) => link)}
-                    </ul>
+                    </div>
                 </section>
                 <section className="col-2">
                 </section>
