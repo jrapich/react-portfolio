@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 const emailRegex = new RegExp(/^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$/gm);
 
@@ -7,8 +7,10 @@ export default function Contact () {
     const nameHelpRef = useRef(null);
     const emailRef = useRef(null);
     const emailHelpRef = useRef(null);
-    const passwordRef = useRef(null);
-    const passwordHelpRef = useRef(null);
+    const messageRef = useRef(null);
+    const messageHelpRef = useRef(null);
+
+    const [input, setInput] = useState('');
 
     //function to change the border of a field to blue when mouse hovers over it
     const handleFieldMouseEnter = (event) => {
@@ -23,31 +25,38 @@ export default function Contact () {
             event.target.classList.add("border-danger");
             nameHelpRef.current.innerText = "This field is required.";
             nameHelpRef.current.classList.add(".text-danger");
+            setInput('');
         } else {
-            nameHelpRef.current.innerText = 'Enter your name here.';
+            nameHelpRef.current.innerText = '';
             nameHelpRef.current.classList.remove(".text-danger");
+            setInput('');
         }
 
         if (emailRef.current.value === "") {
             event.target.classList.add("border-danger");
             emailHelpRef.current.innerText = "This field is required.";
             emailHelpRef.current.classList.add(".text-danger");
+            setInput('');
         } else if (!emailRegex.test(emailRef.current.value)) {
             event.target.classList.add("border-danger");
             emailHelpRef.current.innerText = "Please enter a valid email address.";
             emailHelpRef.current.classList.add(".text-danger");
+            setInput('');
         } else {
-            emailHelpRef.current.innerText = 'Enter your email here.';
+            emailHelpRef.current.innerText = '';
             emailHelpRef.current.classList.remove(".text-danger");
+            setInput('');
         }
 
-        if (passwordRef.current.value === "") {
+        if (messageRef.current.value === "") {
             event.target.classList.add("border-danger");
-            passwordHelpRef.current.innerText = "This field is required.";
-            passwordHelpRef.current.classList.add(".text-danger");
+            messageHelpRef.current.innerText = "This field is required.";
+            messageHelpRef.current.classList.add(".text-danger");
+            setInput('');
         } else {
-            passwordHelpRef.current.innerText = 'Enter your password here.';
-            passwordHelpRef.current.classList.remove(".text-danger");
+            messageHelpRef.current.innerText = '';
+            messageHelpRef.current.classList.remove(".text-danger");
+            setInput('');
         }
     }
 
@@ -62,6 +71,7 @@ export default function Contact () {
                             <label htmlFor="yourName" className="form-label">Enter your name</label>
                             <input
                                 ref={nameRef}
+                                defaultValue={input}
                                 type="text" 
                                 className="form-control" 
                                 id="yourName" 
@@ -85,17 +95,17 @@ export default function Contact () {
                             <div ref={emailHelpRef} id="emailHelp" className="form-text">Enter your email here</div>
                         </div>
                         <div className="mb-3">
-                            <label htmlFor="yourPassword" className="form-label">Password</label>
+                            <label htmlFor="yourMessage" className="form-label">message</label>
                             <input 
-                                ref={passwordRef}
-                                type="password" 
+                                ref={messageRef}
+                                type="text" 
                                 className="form-control" 
-                                id="yourPassword"
-                                aria-describedby="passwordHelp"
+                                id="yourMessage"
+                                aria-describedby="messageHelp"
                                 onMouseEnter={handleFieldMouseEnter}
                                 onMouseLeave={handleFieldMouseLeave}
                                 ></input>
-                            <div ref={passwordHelpRef} id="passwordHelp" className="form-text">Enter your password here</div>
+                            <div ref={messageHelpRef} id="messageHelp" className="form-text">Enter your password here</div>
                         </div>
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </form>
