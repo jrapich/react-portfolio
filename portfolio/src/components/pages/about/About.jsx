@@ -6,9 +6,9 @@ export default function About() {
     return (
       <>
         <section className='row container-fluid text-center bg-secondary bg-gradient' id="aboutMe">
-          <div className='col-2'></div>
+          <div className='col-2 sideCol'></div>
           <div className='col border'>
-          <h3> My Fullstack Webdev Journey</h3>
+            <h3> My Fullstack Webdev Journey</h3>
             <p>
                 Hello, my name is Jeremy. I currently live in South Jordan and am enrolled in the University of Utah/EdEx 
                 Fullstack Web Developer Coding Bootcamp. I am about 20 weeks into it and am set to graduate it on December 4th.
@@ -36,17 +36,17 @@ export default function About() {
                 When I'm not messing with tech stuff, I'm enjoying music and have a vinyl record collection. I'm proud of the digital and physical
                 music library I've maintained since I was 14, and have been slowly learning how to DJ as a fun side hobby.
             </p>
-              <section className='d-flex justify-content-center'>
-                <a href="https://vitejs.dev" target="_blank">
-                  <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                  <img src={reactLogo} className="logo react" alt="React logo" />
-                </a>
-              </section>
-          <h4>Powered by Vite + React</h4>
+            <section className='d-flex justify-content-center'>
+              <a href="https://vitejs.dev" target="_blank">
+                <img src={viteLogo} className="logo" alt="Vite logo" />
+              </a>
+              <a href="https://react.dev" target="_blank">
+                <img src={reactLogo} className="logo react" alt="React logo" />
+              </a>
+            </section>
+            <h4>Powered by Vite + React</h4>
           </div>
-          <div className='col-2'></div>
+          <div className='col-2 sideCol'></div>
         </section>
       </>
     )
