@@ -14,7 +14,7 @@ export default function Project () {
                         <li className="text-start">Basic Experience in Ubuntu Server admin by self hosting and self managing a number of personal apps and projects</li>
                     </ul>
                 </div>
-                <a href="/downloads/JeremyRapichResume2024.pdf" download>
+                <a className="resumeLink" href="/downloads/JeremyRapichResume2024.pdf" download>
                         <h4>Click here to download full Resume</h4>
                 </a>
             </section>
