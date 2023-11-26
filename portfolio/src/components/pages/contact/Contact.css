@@ -1,0 +1,16 @@
+.contactBackground {
+    background-image: url('../../../assets/images/tall-bg-1.jpg');
+    background-position:center;
+    background-size:cover;
+    padding:0px;
+    height: 100vh;
+}
+
+.inputForm {
+    width: 80%;
+    height:20px;
+}
+
+#contactMe {
+    height: 50vh;
+}

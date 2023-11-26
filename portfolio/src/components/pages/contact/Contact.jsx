@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import './Contact.css';
 
 const emailRegex = new RegExp(/^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$/gm);
 
@@ -61,57 +62,60 @@ export default function Contact () {
     }
 
     return (
-        <div className="row container-fluid text-center">
-            <div className="col-2 flex-grow-1"></div>
-            <div className="col flex-grow-1">
-                <section className="row" id="contactMe">
-                    {/* below is a form imported from bootstrap and edited slightly */}
-                    <form>
-                        <div className="mb-3">
-                            <label htmlFor="yourName" className="form-label">Enter your name</label>
-                            <input
-                                ref={nameRef}
-                                defaultValue={input}
-                                type="text" 
-                                className="form-control" 
-                                id="yourName" 
-                                aria-describedby="nameHelp"
-                                onMouseEnter={handleFieldMouseEnter}
-                                onMouseLeave={handleFieldMouseLeave}
-                                ></input>
-                            <div ref={nameHelpRef} id="nameHelp" className="form-text">Enter your name here.</div>
-                        </div>
-                        <div className="mb-3">
-                            <label htmlFor="yourEmail" className="form-label">Email Address</label>
-                            <input 
-                                ref={emailRef}
-                                type="email" 
-                                className="form-control" 
-                                id="yourEmail" 
-                                aria-describedby="emailHelp"
-                                onMouseEnter={handleFieldMouseEnter}
-                                onMouseLeave={handleFieldMouseLeave}
-                                ></input>
-                            <div ref={emailHelpRef} id="emailHelp" className="form-text">Enter your email here</div>
-                        </div>
-                        <div className="mb-3">
-                            <label htmlFor="yourMessage" className="form-label">message</label>
-                            <input 
-                                ref={messageRef}
-                                type="text" 
-                                className="form-control" 
-                                id="yourMessage"
-                                aria-describedby="messageHelp"
-                                onMouseEnter={handleFieldMouseEnter}
-                                onMouseLeave={handleFieldMouseLeave}
-                                ></input>
-                            <div ref={messageHelpRef} id="messageHelp" className="form-text">Enter your password here</div>
-                        </div>
-                        <button type="submit" className="btn btn-primary">Submit</button>
-                    </form>
-                </section>
+        <div className='contactBackground'>
+            <div className="row container-fluid text-center">
+                <div className="col-2"></div>
+                <div className="col">
+                    <div className='my-5'></div>
+                    <section className="row bg-secondary bg-gradient" id="contactMe">
+                        {/* below is a form imported from bootstrap and edited slightly */}
+                        <form className='d-flex flex-column align-items-center'>
+                            <div className="mb-3">
+                                <label htmlFor="yourName" className="form-label">Enter your name</label>
+                                <input
+                                    ref={nameRef}
+                                    defaultValue={input}
+                                    type="text" 
+                                    className="form-control inputForm" 
+                                    id="yourName" 
+                                    aria-describedby="nameHelp"
+                                    onMouseEnter={handleFieldMouseEnter}
+                                    onMouseLeave={handleFieldMouseLeave}
+                                    ></input>
+                                <div ref={nameHelpRef} id="nameHelp" className="form-text">Enter your name here.</div>
+                            </div>
+                            <div className="mb-3">
+                                <label htmlFor="yourEmail" className="form-label">Email Address</label>
+                                <input 
+                                    ref={emailRef}
+                                    type="email" 
+                                    className="form-control inputForm" 
+                                    id="yourEmail" 
+                                    aria-describedby="emailHelp"
+                                    onMouseEnter={handleFieldMouseEnter}
+                                    onMouseLeave={handleFieldMouseLeave}
+                                    ></input>
+                                <div ref={emailHelpRef} id="emailHelp" className="form-text">Enter your email here</div>
+                            </div>
+                            <div className="mb-3">
+                                <label htmlFor="yourMessage" className="form-label">message</label>
+                                <input 
+                                    ref={messageRef}
+                                    type="text" 
+                                    className="form-control inputForm" 
+                                    id="yourMessage"
+                                    aria-describedby="messageHelp"
+                                    onMouseEnter={handleFieldMouseEnter}
+                                    onMouseLeave={handleFieldMouseLeave}
+                                    ></input>
+                                <div ref={messageHelpRef} id="messageHelp" className="form-text">Enter your password here</div>
+                            </div>
+                            <button type="submit" className="btn btn-primary">Submit</button>
+                        </form>
+                    </section>
+                </div>
+                <div className="col-2"></div>
             </div>
-            <div className="col-2 flex-grow-1"></div>
         </div>
     )
 };

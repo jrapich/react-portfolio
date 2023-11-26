@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 export default function About() {
     return (
       <>
-        <section className='row container-fluid text-center' id="aboutMe">
+        <section className='row container-fluid text-center bg-secondary bg-gradient' id="aboutMe">
           <div className='col-2'></div>
           <div className='col border'>
           <h3> My Fullstack Webdev Journey</h3>
