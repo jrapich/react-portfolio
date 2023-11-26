@@ -7,6 +7,7 @@ export default function Footer() {
             <span><a href='https://www.github.com/jrapich'>Github</a></span>
             <span><a href='https://www.linkedin.com/in/jeremy-rapich' >LinkedIn</a></span>
             <span><a href='https://www.twitter.com/jeremy_rapich' >Twitter</a></span>
+            <div className='py-2'></div>
         </footer>
     );
 }
