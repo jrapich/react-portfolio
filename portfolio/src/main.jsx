@@ -7,6 +7,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 import './index.css'
 
+//import google fonts
+import './fonts.css';
+
 //import page components for the routes to use
 import App from './App.jsx'
 import Home from './components/pages/home/Home.jsx'
