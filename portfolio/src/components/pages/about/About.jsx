@@ -5,8 +5,8 @@ import viteLogo from '/vite.svg'
 export default function About() {
     return (
       <>
-        <section className='row container-fluid text-center bg-secondary bg-gradient' id="aboutMe">
-          <div className='col-2 sideCol'></div>
+        <section className='row container-fluid text-center bg-secondary' id="aboutMe">
+          <div className='col-2 sideCol bg-gradient'></div>
           <div className='col border'>
             <h3> My Fullstack Webdev Journey</h3>
             <p>
@@ -46,7 +46,8 @@ export default function About() {
             </section>
             <h4>Powered by Vite + React</h4>
           </div>
-          <div className='col-2 sideCol'></div>
+          <div className='col-2 sideCol bg-gradient'></div>
+          <div className='my-4'></div>
         </section>
       </>
     )
