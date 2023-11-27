@@ -7,7 +7,7 @@ export default function Project (props) {
             <section className="col container-fluid centerCards">
                 <h4>Here are a list of apps I have developed. Feel free to click on a image to be taken to the deployed app's site, if it has one.</h4>
                 {props.projects.map((project)=>(
-                    <div className="card" key={project.id}>
+                    <div className="card border-dark" key={project.id}>
                     <a href={project.link}>
                         <img src={project.image} className="card-img-top" alt="screenshot"></img>
                     </a>
