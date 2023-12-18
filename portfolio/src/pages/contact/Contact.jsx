@@ -120,6 +120,23 @@ export default function Contact () {
                             <button type="submit" className="btn btn-primary">Submit</button>
                         </form>
                     </section> */}
+                    <section className='row bg-secondary bg-gradient' id='contactMethods'>
+                        <h3>You can contact me via these methods:</h3>
+                        <div className='col contactLeft'>
+                            <p>email:</p>
+                            <p>Phone/Signal Messenger/SMS:</p>
+                            <p>LinkedIn:</p>
+                            <p>Matrix:</p>
+                            <p>PGP:</p>
+                        </div>
+                        <div className='col contactRight'>
+                            <p>jeremysr@proton.me</p>
+                            <p>435-840-8800</p>
+                            <p><a href='https://www.linkedin.com/in/jeremy-rapich-69412429'>https://www.linkedin.com/in/jeremy-rapich-69412429</a></p>
+                            <p>@exist:monero.social</p>
+                            <p>C2054C18</p>
+                        </div>
+                    </section>
                 </div>
                 <div className="col-2"></div>
             </div>

@@ -14,3 +14,13 @@
 #contactMe {
     height: 50vh;
 }
+
+#contactMethods {
+    height: 50vh;
+    p {
+        color: black;
+    }
+    a {
+        color:black;
+    }
+}
