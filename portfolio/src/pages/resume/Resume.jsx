@@ -1,6 +1,6 @@
 import './Resume.css';
 
-export default function Project () {
+export default function Resume () {
     return (
         <div className="resume row container-fluid">
             <div className="col-2 bg-secondary bg-gradient"></div>
