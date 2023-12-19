@@ -1,5 +1,5 @@
 .contactBackground {
-    background-image: url('../../../assets/images/tall-bg-1.jpg');
+    background-image: url('../../assets/images/tall-bg-1.jpg');
     background-position:center;
     background-size:cover;
     padding:0px;
@@ -13,4 +13,14 @@
 
 #contactMe {
     height: 50vh;
+}
+
+#contactMethods {
+    height: 40vh;
+    p {
+        color: black;
+    }
+    a {
+        color:black;
+    }
 }

@@ -1,8 +1,8 @@
 import {useState, useEffect} from 'react';
-import Project from '../project/Project';
+import Project from '../../components/project/Project.jsx';
 import './Portfolio.css';
 //import project data constructor
-import {ProjectObj, currentProjects} from '../../../utils/projects';
+import {ProjectObj, currentProjects} from '../../utils/projects';
 const {projectName, link, github, image, description} = currentProjects;
 
 export default function Portfolio(){
