@@ -10,9 +10,9 @@ export default function About() {
           <div className='col border border-dark'>
             <h3> My Fullstack Webdev Journey</h3>
             <p>
-                Hello, my name is Jeremy. I currently live in South Jordan and am enrolled in the University of Utah/EdEx 
-                Fullstack Web Developer Coding Bootcamp. I am about 20 weeks into it and am set to graduate it on December 4th.
-                I have learned much through it and feel I have gained valauble knowledge and experience building frontend, backend,
+                Hello, my name is Jeremy. I currently live in South Jordan and am a recent graduate student of the University of Utah/EdEx 
+                Fullstack Web Developer Coding Bootcamp. I successfully completed it December 4th, 2023.
+                I have learned much through it and feel I have gained valuable knowledge and experience building frontend, backend,
                 and full stack apps. I'm quite proud of the hard work I've put in to it and the knowledge I've obtained from it.
             </p>
             <p>
@@ -22,6 +22,12 @@ export default function About() {
                 This portfolio, in contrast, was built entirely with ReactJS and Bootstrap!
             </p>
             <p>
+                I am proud of the hard work I've put into becoming a developer and adopting a growth mindset. I know the learning never stops
+                and am looking forward to the new skills and knowledge I will be gaining. Be sure to check the portfolio section here to check out
+                apps I have built both during and after my webdev course.
+            </p>
+            <hr></hr>
+            <p>
                 Much of my past work experience lies in communications and emergency dispatch. I was an air ambulance dispatcher
                 for 5 years, and am seeking to jumpstart myself in a new career that is much less stressful and demanding.
             </p>
@@ -30,7 +36,7 @@ export default function About() {
                 How computers and the internet work and what makes them function has always been interesting to me. I've used Linux as my primary
                 OS for several years and have enjoyed the tinkering and customization that it brings. I've repurposed an old PC as an ubuntu linux server at my home
                 and have been learning to self host all sorts of interesting things. Several of my own projects completed throughout my webdev bootcamp will be self hosted
-                complete with my own domain soon, as well as several other projects I will start working on as soon as the course is completed.
+                complete with my own domain soon.
             </p>
             <p>
                 When I'm not messing with tech stuff, I'm enjoying music and have a vinyl record collection. I'm proud of the digital and physical
