@@ -8,7 +8,7 @@ export default function Resume () {
                 <section className="col centerCol border border-dark py-2" id="resumeSection">
                     <div className='my-2'></div>
                     <a className="resumeLink" href="/downloads/JeremyRapichResume2024.pdf" download>
-                            <h4>Click here to download full Resume</h4>
+                            <h4>Click here to download full Resumé</h4>
                     </a>
                     <h3><b>SKILLS:</b></h3>
                     <div className="d-flex justify-content-start flex-column">
@@ -54,7 +54,7 @@ export default function Resume () {
                         </ul>
                     </div>
                     <h4><b>And more...</b></h4>
-                    <div className='my-5'></div>
+                    <div className='py-4'></div>
                 </section>
                 <div className="col-2 sideCol bg-gradient py-2"></div> 
             </div>
