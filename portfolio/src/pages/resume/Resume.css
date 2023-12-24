@@ -11,13 +11,13 @@
     background-color: #0D1821;
   }
   
-  .centerCol {
-    background-color: #6f9cebff;
-    /* background-color: #B4CDED; */
+.centerCol {
+  background-color: #6f9cebff;
+  /* background-color: #B4CDED; */
+}
+
+@media only screen and (max-width:380px) {
+  .sideCol {
+    display:none;
   }
-  
-  @media only screen and (max-width:380px) {
-    .sideCol {
-      display:none;
-    }
-  }
+}

@@ -11,7 +11,7 @@ export default function Header() {
             Portfolio
         </Link>,
         <Link key={2} className="nav-link text-light" to="/resume">
-          Resume
+          Resumé
         </Link>,
         <Link key={3} className='nav-link text-light' to='/about'>
             About Me
