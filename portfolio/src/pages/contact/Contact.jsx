@@ -120,7 +120,7 @@ export default function Contact () {
                             <button type="submit" className="btn btn-primary">Submit</button>
                         </form>
                     </section> */}
-                    <section className='row bg-secondary bg-gradient justify-content-center' id='contactMethods'>
+                    <section className='row centerCol bg-gradient justify-content-center' id='contactMethods'>
                         <h3>Ways to contact me:</h3>
                         <div className='col contactLeft'>
                             <p>email:</p>

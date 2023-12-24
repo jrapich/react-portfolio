@@ -4,6 +4,11 @@
     padding-bottom: 0px;
 }
 
+.nav-colors {
+    /* background-color: #424c55ff; */
+    background-color: #344966; 
+}
+
 @media only screen and (min-width:1200px) {
     .navbar-nav {
         display: flex;

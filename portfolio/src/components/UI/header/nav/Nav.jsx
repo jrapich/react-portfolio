@@ -4,7 +4,7 @@ import './Nav.css';
 
 export default function Nav({links}) {
     return(
-        <nav className="navbar bg-body-secondary" data-bs-theme="dark">
+        <nav className="navbar nav-colors">
             <div className="container-fluid  row justify-content-center">
                 <section className="col-2">
                     <div>

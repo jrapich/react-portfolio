@@ -4,8 +4,8 @@ export default function Project (props) {
     return (
         <section className='row container-fluid' id="projects">
             <div className="col-2"></div>
-            <section className="col container-fluid centerCards">
-                <h4>Here are a list of apps I have developed. Feel free to click on a image to be taken to the deployed app's site, if it has one.</h4>
+            <section className="col colCenter container-fluid">
+                <h4 className='py-2'>Here are a list of apps I have developed. Feel free to click on a image to be taken to the deployed app's site, if it has one.</h4>
                 {props.projects.map((project)=>(
                     <div className="card border-dark" key={project.id}>
                     <a href={project.link}>
