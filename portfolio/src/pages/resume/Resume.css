@@ -16,7 +16,7 @@
   /* background-color: #B4CDED; */
 }
 
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:438px) {
   .sideCol {
     display:none;
   }
