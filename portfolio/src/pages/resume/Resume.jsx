@@ -7,7 +7,7 @@ export default function Resume () {
                 <div className="col-2 sideCol bg-gradient py-2"></div>
                 <section className="col centerCol border border-dark py-2" id="resumeSection">
                     <div className='my-2'></div>
-                    <a className="resumeLink" href="/downloads/JeremyRapichResume2024.pdf" download>
+                    <a className="resumeLink" href="/downloads/Jeremy Rapich Resume 2024.pdf" download>
                             <h4>Click here to download full Resumé</h4>
                     </a>
                     <h3><b>SKILLS:</b></h3>
