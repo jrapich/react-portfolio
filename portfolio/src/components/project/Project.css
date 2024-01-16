@@ -1,11 +1,9 @@
-.sideCol {
-    /* background-color: #61dafbaa; */
+/* .sideCol {
     background-color: #0D1821;
-  }
+}
   
 .colCenter {
     background-color: #6f9cebff;
-    /* background-color: #424c55ff; */
 }
 
 @media only screen and (max-width:380px) {
@@ -17,9 +15,8 @@
 .card-img-top:hover {
     filter: blur(5px);
     -webkit-filter: blur(5px);
-}
+} */
 
 .card {
     background-color: #424c55ff;
-    /* background-color: #6f9cebff; */
 }

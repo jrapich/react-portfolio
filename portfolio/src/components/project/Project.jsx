@@ -3,8 +3,8 @@ import './Project.css';
 export default function Project (props) {
     return (
         <section className='row container-fluid' id="projects">
-            <div className="col-2"></div>
-            <section className="col colCenter container-fluid">
+            <div className="col-2 sideColResume"></div>
+            <section className="col centerCol container-fluid">
                 <h4 className='py-2'>Here are a list of apps I have developed. Feel free to click on a image to be taken to the deployed app's site, if it has one.</h4>
                 {props.projects.map((project)=>(
                     <div className="card border-dark" key={project.id}>
@@ -19,7 +19,7 @@ export default function Project (props) {
                 </div>
                 ))}
             </section>
-            <div className="col-2"></div>
+            <div className="col-2 sideColResume"></div>
         </section>
     )
 };

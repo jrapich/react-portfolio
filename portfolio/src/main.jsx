@@ -13,10 +13,10 @@ import './fonts.css';
 //import page components for the routes to use
 import App from './App.jsx'
 import Home from './pages/home/Home.jsx'
+import Resume from './pages/resume/Resume.jsx'
 import Portfolio from './pages/portfolio/Portfolio.jsx'
 import About from './pages/about/About.jsx'
 import Contact from './pages/contact/Contact.jsx'
-import Resume from './pages/resume/Resume.jsx'
 import Error from './pages/error/Error.jsx'
 
 //define the router itself
@@ -43,13 +43,13 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
+        path: 'portfolio',
+        element: <Portfolio />
+      },
+      {
         path: 'resume',
         element: <Resume />
       },
-      {
-        path: 'portfolio',
-        element: <Portfolio />
-      }
     ],
     },
 ]);
